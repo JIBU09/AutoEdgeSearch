@@ -9,7 +9,7 @@ import java.util.Random;
 public class RandomWordGenerator {
     public static void main(String[] args) {
         List<String> englishWords = fetchEnglishWords();
-        int numberOfWords = 10;
+        int numberOfWords = 1;
         String[] randomWords = generateRandomWords(englishWords, numberOfWords);
         for (String word : randomWords) {
             System.out.println(word);
