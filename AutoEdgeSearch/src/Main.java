@@ -51,6 +51,9 @@ public class Main {
                     }
 
                     System.out.println("Microsoft Edge wurde beendet.");
+                    Thread.sleep(1000);
+                    System.out.println("Beende Java-System.");
+                    System.exit(0);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
